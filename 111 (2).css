@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Regular.woff2') format('woff2'),
+        url('MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.body{
+font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;}
+    
+.logo-header {
+    padding:  40px 70px;
+    height: 60px;
+    font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+    color: white;
+	font-size:60px
+    
+    
+}
+
+.header{
+    background:#333333;
+    line-height: 80px;
+    font-weight: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    padding-left: 40px
+}
+h2{
+    padding-left: 40px
+}
+.nav{
+    padding: 100px 75px;
+    color:white;
+    display: flex;
+    margin-left: auto;
+    content: "--"
+	
+    
+
+}
+.header2{
+
+    color:#bbbbbb;
+}
+
+.nav-item {
+    color: #bbbbbb;
+}
+.nav-item{
+    margin-left: 10px;
+	text-transform:capitalize;
+  
+}
+
+.nav-item:after {
+    content: "--";
+    margin-right: 10px;
+}
+.nav-item:after {
+    content: "--";
+margin-left: 10px;
+}
+.nav-item:last-child:after {
+    content:none;
+}
+.nav-item:hover{
+	color:#06A1DC
+}
+*{
+	text-decoration:none
+}
+#i{
+	color:aqua
+}
+.simple{
+	line-height:50px;
+	text-transform:capitalize;
+}
+#slogan1{
+	font-size:60px;
+	padding-left:70px;
+	color:#333333
+}
+#slogan2{
+	font-size:32px;
+	color: #9E9E9E;
+	padding-left:30px;
+}
+.dline{
+	padding-left:70px;
+	margin:40px 0px 0px 0px;
+	color:#555555;
+}
+
+
+.block1, .block2, .block3{
+	height:380px;
+	width:280px;
+	background:#00AEEF;
+	float:left;
+	margin:40px 10px 10px 70px;
+	box-shadow:7px 7px 10px #CECECE
+}
+#web1{
+	padding:0px 0px 0px 65px;
+	font-size:30px;
+	color:white
+}
+#web2{
+	padding:0px 0px 0px 70px;
+	font-size:30px;
+	color:white
+}
+#web3{
+	padding:0px 0px 0px 60px;
+	font-size:30px;
+	color:white
+}
+#line1,#line2, #line3{
+	
+	
+	border-bottom:2px dotted black;
+	margin:0px 25px 10px 25px;
+	
+}
+.dline{
+	font-size:33px;
+	line-height:10px;
+	padding-left:30px;
+}
+#line2{
+	
+}
+.span{
+	height:50px;
+	width:217.5px;
+	background:#0076A3;
+	margin:25px 10px 10px 30px;
+	border:0.1em solid #0C698C;
+}
+#a{
+	font-weight:bold;
+}
+#span3{
+	height:50px;
+	width:217.5px;
+	background:#0076A3;
+	margin:25px 10px 10px 30px;
+	border:0.1em solid #0C698C;
+}
+#span2{
+	height:50px;
+	width:217.5px;
+	background:#0076A3;
+	margin:25px 10px 10px 30px;
+	border:0.13em solid #0C698C;
+}
+.get3, .get2, .get1{
+	color:white;
+	font-size:18px;
+	text-transform:uppercase
+}
+.get3{
+	padding:1px 0px 1px 36px;
+	line-height:55px;
+}
+.get2{
+	padding:1px 0px 1px 10px;
+	line-height:55px;
+}
+.get1{
+	padding:1px 0px 1px 10px;
+	line-height:55px;
+}
+.get3:hover, .get2:hover, .get1:hover{
+	color:#C78593;
+}
+
+#line4{
+	width:75em;
+	border:0.1em dashed gray;
+	margin:70px 0px 0px 70px
+}
+#line6{
+		width:75em;
+	border:0.1em dashed white;
+}
+
+#line0{
+	border-bottom:6px dotted gray;
+	margin-left:70px;
+	margin-right:100px;
+	margin-top:40px;
+	margin-bottom:70px;
+}
+#line55{
+	border-bottom:6px dotted gray;
+	margin-left:70px;
+	margin-right:100px;
+	margin-top:70px;
+	margin-bottom:20px
+	
+}
+#linebeta{
+	margin:40px 0px 0px 70px;
+	width:75em;
+	border:0.13em dashed gray;
+}
+
+.text{
+	font-size:14px;
+	line-height:12px;
+	color:white;
+}
+.design1{
+padding-left:30px;}
+.design2{
+padding-left:36px;}
+.design3{
+padding-left:30px;}
+.design4{
+padding-left:40px;}
+.design5{
+padding-left:30px;}
+.design6{
+padding-left:35px;}
+.design7{
+padding-left:80px;}
+.marketing1{
+padding-left:45px
+}
+.marketing2{
+padding-left:44px
+}
+.marketing3{
+padding-left:40px
+}
+.marketing4{
+padding-left:36px
+}.marketing5{
+padding-left:50px
+}
+.marketing6{
+padding-left:36px
+}
+.marketing7{
+padding-left:36px
+}
+.optimization1{
+padding-left:40px
+}
+.optimization2{
+padding-left:38px
+}
+.optimization3{
+padding-left:28px
+}
+.optimization4{
+padding-left:30px
+}
+.optimization5{
+padding-left:29px
+}
+.optimization6{
+padding-left:70px
+}
+.optimization7{
+padding-left:56px
+}
+#p{
+	padding-left:100px;
+	line-height:80px;
+	font-size:24px;
+	color:#555555}
+#id{
+	border-bottom:5px dotted black;
+	margin:470px 80px 40px 75px;
+}
+#id1{
+	padding-left:70px;
+	padding-bottom:20px;
+	font-size:24px
+}
+
+}
+.client1, .client2, .client3{
+	height:80px;
+	width:80px;
+	background-color:gray;
+	margin-bottom:50px;
+	margin-left:70px;
+	margin-top:20px;
+	
+}
+
+#user{
+	float:left
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
