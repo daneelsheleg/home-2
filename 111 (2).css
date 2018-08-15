@@ -48,7 +48,7 @@ h2{
 }
 
 .nav-item {
-    color: #bbbbbb;
+    color: #8D8D8D;
 }
 .nav-item{
     margin-left: 10px;
@@ -57,6 +57,7 @@ h2{
 }
 
 .nav-item:after {
+	color:#8D8D8D;
     content: "--";
     margin-right: 10px;
 }
@@ -81,11 +82,13 @@ margin-left: 10px;
 	text-transform:capitalize;
 }
 #slogan1{
+	padding-top:40px;
 	font-size:60px;
 	padding-left:70px;
 	color:#333333
 }
 #slogan2{
+	line-height:4px;
 	font-size:32px;
 	color: #9E9E9E;
 	padding-left:30px;
@@ -96,14 +99,19 @@ margin-left: 10px;
 	color:#555555;
 }
 
-
+.director{
+	display: flex;
+	
+	justify-content: space-around
+}
 .block1, .block2, .block3{
+	
 	height:380px;
 	width:280px;
 	background:#00AEEF;
-	float:left;
-	margin:40px 10px 10px 70px;
-	box-shadow:7px 7px 10px #CECECE
+	margin:40px 10px 10px 0px;
+	box-shadow:7px 7px 10px #CECECE;
+
 }
 #web1{
 	padding:0px 0px 0px 65px;
@@ -120,10 +128,13 @@ margin-left: 10px;
 	font-size:30px;
 	color:white
 }
+#clear{
+	clear:left
+}
 #line1,#line2, #line3{
 	
 	
-	border-bottom:2px dotted black;
+	border-bottom:2px dotted white;
 	margin:0px 25px 10px 25px;
 	
 }
@@ -153,6 +164,7 @@ margin-left: 10px;
 	border:0.1em solid #0C698C;
 }
 #span2{
+	
 	height:50px;
 	width:217.5px;
 	background:#0076A3;
@@ -191,16 +203,16 @@ margin-left: 10px;
 }
 
 #line0{
-	border-bottom:6px dotted gray;
+	border-bottom:6px dotted #CECECE;
 	margin-left:70px;
-	margin-right:100px;
-	margin-top:40px;
+	margin-right:90px;
+	margin-top:70px;
 	margin-bottom:70px;
 }
 #line55{
-	border-bottom:6px dotted gray;
+	border-bottom:6px dotted #CECECE;
 	margin-left:70px;
-	margin-right:100px;
+	margin-right:90px;
 	margin-top:70px;
 	margin-bottom:20px
 	
@@ -215,7 +227,9 @@ margin-left: 10px;
 	font-size:14px;
 	line-height:12px;
 	color:white;
+	
 }
+
 .design1{
 padding-left:30px;}
 .design2{
@@ -277,8 +291,8 @@ padding-left:56px
 	font-size:24px;
 	color:#555555}
 #id{
-	border-bottom:5px dotted black;
-	margin:470px 80px 40px 75px;
+	border-bottom:6px dotted #CECECE;
+	margin:40px 80px 40px 75px;
 }
 #id1{
 	padding-left:70px;
@@ -286,30 +300,128 @@ padding-left:56px
 	font-size:24px
 }
 
+#user2 {
+	
+	line-height:0px;
+
+}
+#user1{
+	
+	line-height:11px;
+		padding-top:1px
+}
+#user3{
+	
+	line-height:11px;
+	padding-top:1px;
+}
+#user4{
+	line-height:0px;
+}
+#user5{
+	padding-top:1px;
+	line-height:11px
+}
+#user6{
+	line-height:0px;
+}
+#line99{
+	
+}
+.control{
+	display: flex;
+    flex-direction: row;
+}
+.container01{
+	width:650px;
+	display: flex;
+    flex-direction: column;
+    border-right:  6px dotted #cccccc;
+}
+.container0{
+	display: flex;
+    flex-direction: row;
+}
+
+
+.container, .container2, .container3 {
+	display:flex;
+	flex-direction:row;
+	
+}
+
+.test{
+	padding-left:70px;
+	font-size:24px
 }
 .client1, .client2, .client3{
-	height:80px;
-	width:80px;
+	
+	height:95px;
+	width:95px;
 	background-color:gray;
 	margin-bottom:50px;
 	margin-left:70px;
 	margin-top:20px;
+}
+.people{
+	font-weight:bold;
+	padding-top:22px;
+	line-height:3px
+}
+.blue{
+	color:#36B9F1;
+	padding-left:40px
+}
+.blue:hover{
+	color:#F34CBE;
+	padding:20px 20px 20px 20px;
+}
+.line99{
+	border-width: 0 0 0 1px;
+	border-style: dotted;
+	 padding-right: 100px;
+	 height:500px
+}
+#line99{
+		border-bottom:6px dotted gray;
+	margin-left:70px;
+	margin-right:100px;
+	margin-top:70px;
+	margin-bottom:70px;
+}
+
+
+
+.project{
+	display: flex;
+    margin-left: 800px;
+	margin-top:px
+
 	
 }
+.asd{
+	font-size:24px;
+	padding-left:40px
+}
+.yoshi{
+	font-size:21px;
+	padding-left:40px
+}
+.img{
+	width:430px;
+	height:210px;
+	margin-left:40px;
+	background-image:url(https://3.downloader.disk.yandex.ru/preview/c0a46093e49a336040e058ca0e32a19fdef7281acd302a2d74941fb1a80ace96/inf/DQxUvGg8Jd2GjsTyD4SDKgeddEklMvNWRr9iPD05bVmvfYx-poX7ZFsSVkOtbEmtZRpYQ5ryQ6PPb5ASmbGONg%3D%3D?uid=634636352&filename=clean-business.psd&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=1349x662);
+	background-repeat:no-repeat;
+	box-shadow:7px 7px 10px #CECECE;
 
-#user{
-	float:left
-
+	}
+.time{
+	
+	font-size:16px;
+	line-height:11px
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#time{
+	padding-top:20px;
+}
