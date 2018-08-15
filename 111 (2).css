@@ -333,6 +333,7 @@ padding-left:56px
     flex-direction: row;
 }
 .container01{
+	margin-bottom: 25px;
 	width:650px;
 	display: flex;
     flex-direction: column;
@@ -358,7 +359,7 @@ padding-left:56px
 	
 	height:95px;
 	width:95px;
-	background-color:gray;
+	background-color:#CECECE;
 	margin-bottom:50px;
 	margin-left:70px;
 	margin-top:20px;
@@ -386,8 +387,8 @@ padding-left:56px
 		border-bottom:6px dotted gray;
 	margin-left:70px;
 	margin-right:100px;
-	margin-top:70px;
-	margin-bottom:70px;
+	margin-top:10px;
+	margin-bottom:20px;
 }
 
 
@@ -424,4 +425,10 @@ padding-left:56px
 
 #time{
 	padding-top:20px;
+}
+#all{
+	padding-left: 70px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	color:#CECECE;
 }
