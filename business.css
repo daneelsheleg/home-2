@@ -1,11 +1,22 @@
+text{
+	outline:none
+}
 a {
     text-decoration: none;
 }
 
+.src{
+	margin-top:15px;
+	padding-bottom:10px
+}
+.src1{
+	margin-top:15px;
+	padding-bottom:10px
+}
 .header{
+	padding-left:60px;
     background:white;
     height: 60px;
-    weight: 80px;
     display: flex;
     flex-direction: row;
 }
@@ -27,18 +38,20 @@ a {
     color:white
 }
 .nav-item:hover{
-background: orange;
+background: #FFBB42;
 
 
 }
 .block0{
-    background: aqua;
-    height: 500px;
-    weight: 100px;
+    background: #709DCA;
+    height: 580px;
+	margin-bottom:250px;
 }
 .boost{
+	text-transform:uppercase;
+	font-weight:bold;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     padding-top: 100px;
     color:white;
     line-height: 1px
@@ -51,12 +64,290 @@ background: orange;
 .loren{
     text-align: center;
     line-height: 0px;
-    color:white
+    color:#ECF1F7
 }
-.mini-block1, .mini-block2, .mini-block3{
-    background-color: white;
+.mini-block1{
+	margin-left:170px;
+    margin-top: 35px;
+    height: 50px;
+    width: 250px;
+}
+
+.mini-block2, .mini-block3{
+    
     margin-top: 35px;
     margin-left: 20px;
     height: 50px;
     width: 250px;
+}
+.user{
+	font-size:25px;
+	position:absolute;
+	padding-top:12px;
+	padding-left:10px;
+}
+
+.quote{
+	
+	padding:15px 53px 18px 30px
+}
+.quote:hover{
+	background:#FFBB42
+}
+
+input[type="text"], input[type="email"]{
+	width:220px;
+	height:45px;
+	border-radius:4px;
+	font-size:16px;
+	padding-left:35px;
+	outline:none;
+}
+input[type="submit"]{
+	margin-left:20px;
+	margin-top:35px;
+	width:170px;
+	height:50px;
+	background-color:white;
+	border-radius:4px;
+}
+input[type="submit"]:hover{
+	background-color:#FFBB42;
+	color:white;
+	cursor:pointer;
+}
+#img{
+padding-left:25%;
+padding-top:70px;
+}
+
+.circle0{
+		padding-left:620px;
+		display:flex;
+		flex:direction;
+}
+.blockend{
+	display:flex;
+	flex-direction:row;
+}
+.circle1, .circle2, .circle3{
+	height:15px;
+	width:15px;
+	background-color:white;
+	margin-bottom:50px;
+	margin-left:10px;
+	margin-top:20px;
+	border-radius:50%;
+	border:solid;
+	border-color:#E0E1E2;
+}
+.circle1:hover , .circle2:hover , .circle3:hover{
+	border-color:#7FCEEC;
+}
+.OurandLoren{
+	line-height:0px;
+	text-align:center;
+}
+.our{
+	font-size:32px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.lorem{
+	font-size:16px;
+	color:#636F73
+}
+
+.blockone, .blocktwo{
+display:flex;
+flex-direction:column;
+margin-top:30px
+}
+
+.container{
+	display:flex;
+	flex-direction:row;
+	padding-top:40px
+
+}
+.container1{
+	display:flex;
+	flex-direction:row;
+padding-top:40px
+}
+
+.clock, .renren, .graduation{
+	color:#729FCB;
+	padding-top:8px;
+	padding-left:50px;
+	font-size:50px
+}
+
+.clock:hover, .renren:hover, .graduation:hover, .setting:hover, .rocket:hover, .bitcoin:hover{
+	color:#F6772C
+}
+ .setting, .rocket, .bitcoin{
+	 color:#729FCB;
+	padding-top:8px;
+	padding-left:50px;
+	font-size:50px;
+ }
+#line1{
+    border-bottom: 6px dotted white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.big{
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase
+}
+.small{
+	font-size:14px;
+	line-height:10px
+}
+ .icons3{
+	 padding-left:30px
+ }
+.icons, .icons2, .icons4, .icons5{
+	padding-left:40px;
+}
+.bitcoin{
+padding-left:120px;	
+}
+.graduation{
+	padding-left:100px
+}
+.clock, .renren, .setting, .rocket{
+	padding-left:110px;
+}
+
+
+
+.background{
+	margin-top:150px;
+	height:468px;
+	background-color:#FFC155;
+}
+
+.src1{
+		display:flex;
+	flex-direction:row;
+}
+
+.aboutus{
+	line-height:60px;
+	font-weight:bold;
+	
+	text-transform:uppercase;
+	font-size:30px;
+}
+	
+.about{
+		display:flex;
+	flex-direction:column;
+	padding-left:80px;
+	padding-top:80px;
+	font-size:13px;
+	line-height:2px;
+	color:white;
+}
+.a{
+	border:solid;
+	margin-top:30px;
+	border-color:#F1B54D;
+	margin-right:320px;
+	color:white;
+	font-size:15px;
+	text-transform:uppercase;
+	padding:20px 40px 20px 40px;
+}
+.a:hover{
+	background:#FFEA3B
+}
+.background2{
+	margin-top:0px;
+	background-color:#E7EDF3;
+	height:650px;
+}
+.Choos{
+	padding-top:70px;
+}
+.block1,  .block3{
+	height:360px;
+	width:250px;
+	background-color:white;
+	margin-top:70px;
+	border-radius:1%
+}
+.block2{
+	padding-top:20px;
+	height:380px;
+	width:250px;
+	background-color:#709DCA;
+		margin-top:50px;
+		border-radius:1%
+}
+.text-align{
+	text-align:center
+}
+.OverBlocks{
+	display:flex;
+	flex-direction:row;
+	padding-left:300px
+}
+.lineOne{
+	padding-top:10px;
+	border-bottom:2px solid #E2E9F0;
+	margin:0px 25px 10px 25px;
+}
+.lineTwo{
+		padding-top:10px;
+	border-bottom:2px solid #8EB8E2;
+	margin:0px 25px 10px 25px;
+}
+.dollar, .dollar2{
+	font-size:50px;
+	line-height:1px
+}
+.dollar2,  .plan2, .per2{
+	color:white;
+}
+.dollar{
+	color:#FFBB42;
+}
+.plan, .plan2{
+	font-size:22px;
+	padding-top:10px;
+	text-transform:uppercase
+}
+.plan, .per, .account{
+	color:#818B95
+}
+.account, .account2{
+	text-transform:uppercase;
+	font-size:13px;
+}
+.account2{
+	color:#C2E1FF;
+}
+.per, .per2{
+	text-transform:uppercase;
+	font-size:16px
+}
+.get{
+	color:white;
+	text-transform:uppercase;
+	font-size:13px
+}
+.started{
+	line-height:40px;
+	background:#FBB841;
+	width:100px;
+	margin-left:75px;
+	border-radius:5%
+}
+.started:hover, .get:hover{
+	color:#00DE04;
+	background-color:#FBCCAF
 }
